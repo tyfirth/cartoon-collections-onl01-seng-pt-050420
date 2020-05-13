@@ -27,3 +27,4 @@ def find_the_cheese(strings)
  end
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+end
