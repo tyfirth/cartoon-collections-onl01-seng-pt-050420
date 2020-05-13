@@ -20,6 +20,10 @@ end
 
 def find_the_cheese(strings)
    strings.include?("cheddar", "gouda", "camembert") { |cheese|
-      puts cheese }
+     if true puts cheese
+       else 
+     puts " "
+  end }
+   
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
