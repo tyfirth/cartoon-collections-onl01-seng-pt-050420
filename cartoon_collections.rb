@@ -22,7 +22,7 @@ def find_the_cheese(strings)
    strings.include?("cheddar", "gouda", "camembert") do |cheese|
      if true puts |cheese|
    else
-     puts
+     puts " "
    end
  end
   cheese_types = ["cheddar", "gouda", "camembert"]
