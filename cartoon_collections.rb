@@ -11,6 +11,10 @@ end
 def long_planeteer_calls(cheers)
   cheers.any? do |cheer|
     if cheer.length > 4
+      true
+    else
+      false
+    end
 end
 
 def find_the_cheese# code an argument here
