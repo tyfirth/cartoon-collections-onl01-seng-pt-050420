@@ -9,7 +9,8 @@ def summon_captain_planet(calls)
 end
 
 def long_planeteer_calls(cheers)
-  if cheers.any?
+  cheers.any? do |cheer|
+    if cheer.length > 4
 end
 
 def find_the_cheese# code an argument here
